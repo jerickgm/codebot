@@ -22,13 +22,15 @@ client.on("message", async message => {
             break;
         case "que_haces?":
             message.reply("leyendo un poco de codigo");
-            message.reply.setTimeout("¿Y tu que haces?", 1000);
             break;
         case "adios":
             message.channel.send("Hasta luego!");
             break;
-        case "mamahuevo":
+        case "mama_huevo":
             message.channel.send("Tu eres un mmgvo!!");
+            break;
+        case "puto_volviste!!":
+            message.channel.send("Me fui a depurar humano invesil");
             break;
     };
 });
